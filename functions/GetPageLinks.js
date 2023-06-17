@@ -3,7 +3,7 @@ const { JSDOM } = require("jsdom");
 
 const GetPagelinks = (query) => {
   const encodedQuery = encodeURIComponent(
-    `site:masstamilan.dev intext:Download ${query} song`
+    `intitle:masstamilan intext:Download ${query} song`
   );
 
   // Define the Google search URL
